@@ -1,0 +1,22 @@
+header{
+    padding: 2rem 0rem;
+    text-align: center;
+    height: 4rem;
+    background-color:orange;
+    font-size: 3rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.container div{
+    width: 40%;
+    margin-bottom: 2rem;
+    padding-left: 6rem;
+}

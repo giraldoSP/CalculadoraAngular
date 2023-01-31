@@ -1,0 +1,41 @@
+.container{
+    align-items: center;
+    background-color: grey;
+    width: 20rem;
+    position: relative;
+    border-radius: 6px;
+}
+.title{
+    text-align: center;
+}
+.container .calculator{
+    padding: 2rem 0rem;
+}
+.container .calculator input{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border-radius: 6px;
+}
+
+.container .calculator label{
+    padding-left: 1rem;
+
+}
+.resultados{
+    margin-bottom: 2rem;
+}
+.buttons{
+    align-self: center;
+    margin-left: 4rem;
+}
+
+.button{
+    height: 2rem;
+    width: 5rem;
+    margin-right: 0.5rem;
+    border-radius: 6px;
+}
+
+.button:hover{
+    background-color: lightgrey;
+}
