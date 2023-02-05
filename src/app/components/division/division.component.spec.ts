@@ -22,4 +22,15 @@ describe('DivisionComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should divide two numbers', () => {
+    
+    let v1 = 4;
+    let v2 = 2;
+    let result = component.division(v1, v2);
+    let expected = v1+v2;
+
+    expect(result).toEqual(expected);
+    
+  });
 });
