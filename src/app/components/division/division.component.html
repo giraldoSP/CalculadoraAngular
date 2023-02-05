@@ -1,6 +1,6 @@
 <div class="container">
     
-    <form class="calculator" id="calcular" [formGroup]="divisionForm" (ngSubmit)="respuesta()">
+    <form class="calculator" id="division" [formGroup]="divisionForm" (ngSubmit)="respuesta()">
         <h1 class="title">Division</h1>
         <div>
         <label>Valor 1</label>
@@ -15,7 +15,7 @@
         <p >{{this.result}}</p>
     </div>
     <div class="buttons">
-        <button class="button" type="submit" form="calcular">Calcular</button>
+        <button class="button" type="submit" form="division">Calcular</button>
         <button class="button" type="reset">Limpiar</button>
     </div>
     </form>

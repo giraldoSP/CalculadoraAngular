@@ -30,10 +30,10 @@ export class SumaComponent implements OnInit {
     let v3 = this.sumaForm.value.number3;
     let result= this.suma(v1, v2, v3)
 
-    this.result =  `El resultado de la resta es ${result}`;
+    this.result =  `El resultado de la suma es ${result}`;
   }
   suma(val1:number,val2:number, val3:number):number{
-    return val1+val2+val3;
+    return (val1+val2)+val3;
   }
 
 
